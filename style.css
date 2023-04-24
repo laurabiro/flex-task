@@ -30,3 +30,95 @@ img, picture, svg, video {
     
 }
 /* --- Variables --- */
+
+body {
+    
+    background-color: ivory;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav {
+    background-color: grey;
+    padding: 10px 5px;
+    border-bottom: black solid 3px;
+    color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    
+}
+#login button {
+    background-color:ivory;
+    color: black;
+    padding: 3px 5px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    
+}
+
+main {
+    background-color:ivory;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#row1, #row2 {
+    
+    display: flex;
+
+}
+#row1 {
+    margin: 80px 40px 0 40px;
+
+}
+#row2 {
+    margin: 0 40px 100px 40px;
+}
+
+.section {
+    border: black solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px 20px;
+    margin: 20px;
+    flex:1;
+    
+    
+}
+
+.section div {
+    position: absolute;
+    right: -5%;
+    top: 90%;
+    
+}
+.more {
+    background-color: rgb(219, 220, 229);
+    color: black;
+    padding: 8px 25px;
+    border: grey solid 1px;
+    border-radius: 0.2em;
+    font-size: 0.7em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: grey;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
