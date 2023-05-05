@@ -36,6 +36,8 @@ body {
     background-color: ivory;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
     
 }
 
@@ -70,11 +72,40 @@ main {
     flex-direction: column;
     
 }
+@media only screen and (max-width: 997px) {
+    main {
+       
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+
+    }
+}
 
 #row1, #row2 {
     
     display: flex;
 
+}
+@media only screen and (max-width: 997px) {
+    #row1 {
+        flex-wrap: wrap;
+        flex: 1 0 500px;
+        max-width: 300px;
+        margin: 0;
+
+
+    }
+}
+@media only screen and (max-width: 997px) {
+    #row2 {
+        flex-wrap: wrap;
+        flex: 1 0 500px;
+        max-width: 300px;
+        margin: 0;
+
+    }
 }
 #row1 {
     margin: 80px 40px 0 40px;
